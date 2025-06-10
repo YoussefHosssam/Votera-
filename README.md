@@ -31,23 +31,30 @@ Votera is a backend REST API built with **Node.js** and **Express.js**, designed
 ## 📁 Project Structure
 votera/
 ├── controllers/
+
 ├── db/
+
 ├── models/
+
 ├── routes/
+
 ├── middlewares/
+
 ├── validators/
+
 ├── utils/
+
 └── app.js 
 
-📌 API Endpoints
+## 📌 API Endpoints
 Here are some key endpoints (JSON-based):
 
-🔐 Auth
+# 🔐 Auth
 POST /api/v1/auth/register – Register a new user
 
 POST /api/v1/auth/login – Authenticate user
 
-🗳️ Polls
+# 🗳️ Polls
 POST /api/v1/polls – Create a new poll
 
 GET /api/v1/polls – List all polls
@@ -55,17 +62,21 @@ GET /api/v1/polls – List all polls
 POST /api/v1/polls/:id/vote – Submit a vote
 
 GET /api/v1/polls/:id/results – View poll results
+---
 
-🕒 Cron Jobs
+## 🕒 Cron Jobs
 Automatically closes surveys after a specified time and emails subscribed users.
+---
 
-📬 Email Notifications
+## 📬 Email Notifications
 Votera sends:
 
 Email to subscribers with the results of the closed survey
+---
 
-🚧 Development Status
+## 🚧 Development Status
 This project is under active development.
+---
 
-🧑‍💻 Author
+## 🧑‍💻 Author
 Youssef Hossam
